@@ -6,10 +6,10 @@ export default function SecondData(){
     const {weather} = useSelector((state)=>state.weather);
 
     return(
-        <div className="grid grid-cols-3 border border-4 border-black justify-items-center">
-            <SpecificDataCard name="wind" info={weather.current.wind_kph} />
-            <SpecificDataCard name="Humidity" info={weather.current.humidity} />
-            <SpecificDataCard name="Visibility" info={weather.current.vis_km} />
+        <div className="grid grid-cols-3 justify-items-center rounded-xl my-2 bg-white py-3 drop-shadow-md">
+            <SpecificDataCard name="wind" info={`${weather.current.wind_kph} m/h`} />
+            <SpecificDataCard name="Humidity" info={`${weather.current.humidity} km`} />
+            <SpecificDataCard name="Visibility" info={`${weather.current.vis_km} %`} />
         </div>
     )
 }
