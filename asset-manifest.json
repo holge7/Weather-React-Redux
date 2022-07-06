@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Weather-React-Redux/static/css/main.e97889f4.css",
-    "main.js": "/Weather-React-Redux/static/js/main.bc391d84.js",
+    "main.css": "/Weather-React-Redux/static/css/main.a64e9662.css",
+    "main.js": "/Weather-React-Redux/static/js/main.935b8c7d.js",
     "static/js/787.d9312eb8.chunk.js": "/Weather-React-Redux/static/js/787.d9312eb8.chunk.js",
     "static/media/sunrise.png": "/Weather-React-Redux/static/media/sunrise.ccc91abc59845e8bf28c.png",
     "static/media/sunset.png": "/Weather-React-Redux/static/media/sunset.77276b05a1dec5a8a720.png",
     "index.html": "/Weather-React-Redux/index.html",
-    "main.e97889f4.css.map": "/Weather-React-Redux/static/css/main.e97889f4.css.map",
-    "main.bc391d84.js.map": "/Weather-React-Redux/static/js/main.bc391d84.js.map",
+    "main.a64e9662.css.map": "/Weather-React-Redux/static/css/main.a64e9662.css.map",
+    "main.935b8c7d.js.map": "/Weather-React-Redux/static/js/main.935b8c7d.js.map",
     "787.d9312eb8.chunk.js.map": "/Weather-React-Redux/static/js/787.d9312eb8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e97889f4.css",
-    "static/js/main.bc391d84.js"
+    "static/css/main.a64e9662.css",
+    "static/js/main.935b8c7d.js"
   ]
 }
