@@ -33,7 +33,7 @@ function App() {
   }
 
   return (
-    <div className='bg-[#F7F7FA] h-[100vh] grid grid-rows-4 grid-cols-12 pb-5 '> 
+    <div className='bg-[#F7F7FA] min-h-[100vh] grid grid-rows-4 grid-cols-12 pb-5 '> 
       <div className='p-4 col-span-12 row-span-3 flex flex-col justify-around'>
         <Nav />
         <FirstData />
