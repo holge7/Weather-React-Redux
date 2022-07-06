@@ -54,7 +54,6 @@ const CustomizedDot = (props) => {
   })
 
   if (hour == currentHour) {
-    console.log("RETORNO")
     return ( 
       <circle key={cx} fill="#CCC9FC" opacity={1} stroke="#716AFE" strokeWidth='4' cx={cx} cy={cy} r='7' ></circle>
     );
