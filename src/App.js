@@ -6,6 +6,7 @@ import Nav from './components/components/Nav/nav';
 import Forecast from './components/components/forecast/Forecast';
 import Astro from './components/components/Astro/Astro';
 import MaxMin from './components/components/MaxMin/MaxMin';
+import Loading from './components/common/Loading/Loading';
 
 import { useSelector, useDispatch } from 'react-redux'
 import { useState } from 'react';
@@ -23,7 +24,14 @@ function App() {
     setfirstFetch(true)
   }
 
-  if (loading) return (<div>Loading...</div>)
+  if (loading){
+    return (
+      <div className='h-[100vh] w-100 flex justify-center items-center'>
+        <Loading />
+      </div>
+    )
+  }
+
   return (
     <div className='bg-[#F7F7FA] h-[100vh] grid grid-rows-4 grid-cols-12 pb-5 '> 
       <div className='p-4 col-span-12 row-span-3 flex flex-col justify-around'>
